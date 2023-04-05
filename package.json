@@ -1,11 +1,11 @@
 {
-  "name": "liveterm",
+  "name": "terminal_profile",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Rajul Saxena",
+    "url": "https://rajulsaxena.com",
+    "email": "rajulsaxena@pm.me"
   },
   "scripts": {
     "dev": "next dev",

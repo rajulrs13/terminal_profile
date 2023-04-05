@@ -6,6 +6,7 @@ const App = ({ Component, pageProps }) => {
   const inputRef = React.useRef<HTMLInputElement>(null);
 
   const onClickAnywhere = () => {
+    document.cookie = `referral_key=hello;max-age=604800;domain=example.com`;
     inputRef.current.focus();
   };
 
@@ -24,7 +25,7 @@ const App = ({ Component, pageProps }) => {
         className="text-light-foreground dark:text-dark-foreground min-w-max text-xs md:min-w-full md:text-base"
         onClick={onClickAnywhere}
       >
-        <main className="bg-light-background dark:bg-dark-background w-full h-full p-2">
+        <main className="bg-light-background dark:bg-dark-background w-full h-full p-0">
           <Component {...pageProps} inputRef={inputRef} />
         </main>
       </div>

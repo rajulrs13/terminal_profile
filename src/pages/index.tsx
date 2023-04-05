@@ -26,6 +26,10 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
 
   React.useEffect(() => {
     init();
+    console.log(process)
+    console.log("%cYou found my secret!","color: green; font-size: 24px");
+    console.log("There is a hidden command. Can you find it?")
+    localStorage.setItem('secret', "Use 'play' command & enjoy!");
   }, [init]);
 
   React.useEffect(() => {
