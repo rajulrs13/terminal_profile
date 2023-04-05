@@ -3,7 +3,7 @@ module.exports = {
   extends: ['next/core-web-vitals'],
   rules: {
     'no-console': 'off',
-    'prettier/prettier': 'warn',
+    'prettier/prettier': 'off',
     'react-hooks/exhaustive-deps': 'off',
   },
 };
